@@ -21,7 +21,7 @@ function App() {
       <ul>
         {livros.map(livro => (
           <li key={livro._id}>
-            <p>{livro.titulo}</p>            
+            <p>Livro armazenado em MongoDB: <strong>{livro.titulo}</strong></p>            
           </li>
         ))}
       </ul>
